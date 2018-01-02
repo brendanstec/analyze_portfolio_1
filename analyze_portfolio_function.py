@@ -121,5 +121,5 @@ def analyze_portfolio(filename,startmonth,endmonth):
 
     #print the output
     print ('Portfolio Annual Expected Return: ' + str(er_port_ann * 100) + '%')
-    print ('Portfolio Annual Expected Standard Deviation: ') + str(port_std * 100) + '%'
+    print ('Portfolio Annual Expected Standard Deviation: ' + str(port_std * 100) + '%')
     
