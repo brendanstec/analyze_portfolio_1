@@ -5,4 +5,4 @@ expected return/volatility. If DEF stock started trading 1 year ago in the same 
 
 This code returns the expected annual return and standard deviation of a portfolio. The main function analyze_portfolio() takes in 
 3 arguments as strings: filename, startmonth, and endmonth. The filename must be in csv format and is built around the formatting of
-Morgan Stanley's default portfolio holdings output. Future updates to this code will allow for a more generalized formatting. See the format.csv file for a clear example of how to format this file. 
+Morgan Stanley's default portfolio holdings output. Future updates to this code will allow for a more generalized formatting. See the format_example.csv file for a clear example of how to format this file. 
