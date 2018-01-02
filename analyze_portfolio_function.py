@@ -27,8 +27,7 @@ def analyze_portfolio(filename,startmonth,endmonth):
     raw_df=pd.read_csv(filename)
     
     #drop unnecessary columns
-    df=raw_df.iloc[10:].drop(['Unnamed: 32','Unnamed: 33', 
-                       'Unnamed: 34','Unnamed: 35','Unnamed: 36'], axis=1)#'Unnamed: 33']
+    df=raw_df.iloc[10:].drop(['Unnamed: 32'],axis=1)
     #get and set new columns names
     new_columns = raw_df.iloc[9][0:32].tolist()
     df.columns = new_columns
